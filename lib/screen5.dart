@@ -17,6 +17,7 @@ class _Screen5State extends State<Screen5> {
           scrollDirection: Axis.horizontal,
           physics: BouncingScrollPhysics(),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Column(
                 children: [
@@ -33,9 +34,9 @@ class _Screen5State extends State<Screen5> {
                     child: Column(
                       children: [
                         Text(
-                          "F E A T U R D",
+                          "FEATURD",
                           style: TextStyle(
-                              fontSize: 10, color: Colors.grey.shade500),
+                              fontSize: 10, color: Colors.grey.shade500,letterSpacing: 2),
                         ),
                         SizedBox(height: 10),
                         Text(
@@ -78,9 +79,9 @@ class _Screen5State extends State<Screen5> {
                     child: Column(
                       children: [
                         Text(
-                          "F E A T U R D",
+                          "FEATURD",
                           style: TextStyle(
-                              fontSize: 10, color: Colors.grey.shade500),
+                              fontSize: 10, color: Colors.grey.shade500,letterSpacing: 2),
                         ),
                         SizedBox(height: 10),
                         Text(
